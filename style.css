@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 62.5%;
+  }
+  
+  body {
+    background-image: url(./img/Netflix-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .container {
+    /* border: 2px solid black; */
+    max-width: 170rem;
+    background-color: rgba(0, 0, 0, 0.315);
+    height: 85.7 rem;
+    margin: 3.5rem auto;
+  }
+  
+  .header {
+    text-align: center;
+    font-size: 2.8rem;
+    font-family: "Alegreya Sans SC", sans-serif;
+    letter-spacing: 0.2rem;
+    color: white;
+  }
+  
+  .header h1 {
+    margin-bottom: -0.5rem;
+  }
+  
+  span {
+    color: #ff0000;
+  }
+  
+  .description {
+    font-family: "Josefin", sans-serif;
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .form-container {
+    background-color: rgba(0, 0, 0, 0.829);
+    width: 50rem;
+    margin: auto;
+    padding: 1rem 4rem;
+  }
+  
+  .survey-form {
+    color: #fff;
+    max-width: 46rem;
+    margin: auto;
+    font-size: 1.5rem;
+  }
+  
+  .box {
+    margin-top: 1rem;
+    font-size: 1.63rem;
+  }
+  
+  .label-set1 {
+    display: block;
+    margin-bottom: -4rem;
+  }
+  
+  .label-set2 {
+    margin-bottom: 1.5rem;
+  }
+  
+  #name,
+  #age,
+  #mail,
+  #dropbox {
+    width: 100%;
+    padding: 1.5rem;
+    margin-top: 1rem;
+  }
+  
+  #feedback {
+    resize: none;
+    width: 38rem;
+    height: 10rem;
+    padding: 1.5rem;
+    margin-top: 1rem;
+  }
+  
+  .submit {
+    width: 16rem;
+    margin: 1.2rem auto;
+  }
+  
+  #btn {
+    width: 16rem;
+    height: 4.5rem;
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    border-radius: 5rem;
+    cursor: pointer;
+    font-size: 1.8rem;
+  }
+  
